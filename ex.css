@@ -1193,5 +1193,41 @@ body {
 }
 
 .logo2{
-  
+  background-color: #A24BF2;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.logo3{
+  background-color: #059669;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+
+/* ===== Custom Industry Section ===== */
+
+
+/* Card-style box with subtle gradient */
+.custom-card {
+  background: linear-gradient(to right, #f0f4ff, #f8fff8);
+  border-radius: 10px;
+}
+
+
+/* Gradient button styling */
+.btn-gradient {
+  background: linear-gradient(to right, #241da7, #9a25d0, #10b981);
+  color: white;
+  border: none;
+  transition: background 0.3s ease;
+}
+
+.btn-gradient:hover {
+  background: linear-gradient(to right, #4338ca, #6d28d9, #059669);
+  color: white;
 }
